@@ -9,8 +9,10 @@ Slides: https://uschpc.github.io/workshop-slurm/
 ### Additional resources
 
 [Top 500](https://www.top500.org/)  
-[CARC User Guide for HPC](https://carc.usc.edu/user-information/user-guides/hpc-basics)  
 [MPI Tutorial](https://mpitutorial.com/tutorials/)
+
+[CARC User Guide for HPC](https://carc.usc.edu/user-information/user-guides/hpc-basics)  
+
 
 Video learning:
 
