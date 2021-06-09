@@ -4,7 +4,6 @@ Workshop materials for *Introduction to Parallel Computing*.
 
 An introductory overview on parallel computing and its applications. Topics includes theoretical background of parallel computing, current trends in supercomputing applications, concpets in parallel computing systems design and programming models, and basic MPI programming. 
 
-Slides: https://uschpc.github.io/workshop-slurm/
 
 ### Additional resources
 
