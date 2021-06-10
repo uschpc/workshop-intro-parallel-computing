@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
 
     // Decide the number of processes
     int nprocs, myid, message;
-;
+
     MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
     
     // Rank of the process
