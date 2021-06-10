@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#SBATCH --nodes=2
+#SBATCH --ntasks=40
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=1GB
+#SBATCH --constraint="xeon-2640v4"
+#SBATCH --exclusive
+#SBATCH --job-name=mpi-f90
+#SBATCH --partition=main
+#SBATCH --account=renney_710 
+#SBATCH --time=0:10:00
+#SBATCH --output=hello_mpif.out2
+
+srun --mpi=pmix_v2 -n $SLURM_NPROCS ./HWF-mpi
+##srun --mpi=pmi2 -n $SLURM_NPROCS ./HWF-mpi
