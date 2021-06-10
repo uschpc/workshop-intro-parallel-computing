@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv) {
     //  Initialize MPI environment
-    MPI_Init(NULL, NULL);
+    MPI_Init(&argc, &argv);
 
     // Decide the number of processes
     int nprocs;
